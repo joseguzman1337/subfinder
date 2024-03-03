@@ -43,3 +43,18 @@ updates:
 #      include: "scope"
 #    labels:
 #      - "Type: Maintenance"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: gomod
+    directory: /v2
+    schedule:
+      interval: daily

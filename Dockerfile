@@ -8,7 +8,7 @@ RUN go mod download
 RUN go build ./cmd/subfinder
 
 # Release
-FROM alpine:3.18.2@sha256:82d1e9d7ed48a7523bdebc18cf6290bdb97b82302a8a9c27d4fe885949ea94d1
+FROM alpine:3.19.1@sha256:c5b1261d6d3e43071626931fc004f70149baeba2c8ec672bd4f27761f8e1ad6b
 RUN apk upgrade --no-cache \
     && apk add --no-cache bind-tools ca-certificates
 COPY --from=build-env /app/v2/subfinder /usr/local/bin/

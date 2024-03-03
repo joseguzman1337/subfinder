@@ -8,10 +8,10 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/lib/pq v1.10.9
 	github.com/projectdiscovery/chaos-client v0.5.1
-	github.com/projectdiscovery/dnsx v1.1.4
+	github.com/projectdiscovery/dnsx v1.1.6
 	github.com/projectdiscovery/fdmax v0.0.4
 	github.com/projectdiscovery/gologger v1.1.12
-	github.com/projectdiscovery/ratelimit v0.0.9
+	github.com/projectdiscovery/ratelimit v0.0.14
 	github.com/projectdiscovery/utils v0.0.82
 	github.com/rs/xid v1.5.0
 	github.com/stretchr/testify v1.8.4
@@ -64,7 +64,7 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.2 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.0.1 // indirect
+	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/fastdialer v0.0.60 // indirect
 	github.com/projectdiscovery/hmap v0.0.40 // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
@@ -77,12 +77,12 @@ require (
 	github.com/shirou/gopsutil/v3 v3.23.7 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
-	github.com/tidwall/btree v1.4.3 // indirect
+	github.com/tidwall/btree v1.6.0 // indirect
 	github.com/tidwall/buntdb v1.3.0 // indirect
-	github.com/tidwall/gjson v1.14.3 // indirect
+	github.com/tidwall/gjson v1.14.4 // indirect
 	github.com/tidwall/grect v0.1.4 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
-	github.com/tidwall/pretty v1.2.0 // indirect
+	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tidwall/rtred v0.1.2 // indirect
 	github.com/tidwall/tinyqueue v0.1.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
@@ -118,7 +118,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/projectdiscovery/goflags v0.1.11
+	github.com/projectdiscovery/goflags v0.1.26
 	github.com/projectdiscovery/retryabledns v1.0.57 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect

@@ -1,5 +1,5 @@
 # Build
-FROM golang:1.22.0-alpine@sha256:8e96e6cff6a388c2f70f5f662b64120941fcd7d4b89d62fec87520323a316bd9 AS build-env
+FROM golang:1.22.2-alpine@sha256:cdc86d9f363e8786845bea2040312b4efa321b828acdeb26f393faa864d887b0 AS build-env
 RUN apk add build-base
 WORKDIR /app
 COPY . /app

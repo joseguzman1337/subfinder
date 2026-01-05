@@ -9,3 +9,5 @@ vendor/
 .devcontainer
 .vscode
 dist
+# macOS system files
+._*
